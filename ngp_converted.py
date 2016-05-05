@@ -62,7 +62,8 @@ registration_forms = ['id',
 	'distance_from_location']
 
 	
-	
+converted_list.append(registration_forms)
+
 for files in glob.glob(ngp_path):
 	with open(files, "rb") as ngpfile:
 		sniffer = csv.reader(ngpfile,delimiter = ',')
