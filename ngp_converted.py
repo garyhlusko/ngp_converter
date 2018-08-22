@@ -2,13 +2,13 @@ import csv
 import glob
 from datetime import *
 
-ngp_path = 'C:\Users/valued/Desktop/politech/ngp_converter/*.csv'
-ngp_converted_file = 'C:\Users/valued/Desktop/politech/ngp_converter/ngp_converted_registration_import.csv'
+ngp_path = ''
+ngp_converted_file = ''
 
 converted_list = []
 
-shift_id = 31415
-created_by_user_id = 31415
+shift_id = ''
+created_by_user_id = ''
 form_number = ''
 us_citizen = 't'
 eligible_voting_age = 't'
